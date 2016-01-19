@@ -43,7 +43,7 @@ angular.module('app').controller('DemoCtrl',function($scope,prompt){
 
     $scope.getCode = function(){
         var options = processOptions();
-        return 'prompt(' + JSON.stringify(options,null,'\t') + ').then(function(result){\n\tconsole.log(result);\n});';        
+        return 'prompt(' + JSON.stringify(options,null,'\t') + ').then(function(result){\n\tconsole.log(result);\n});';
     };
 
     $scope.go = function(){
